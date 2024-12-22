@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy';
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0px 300px;
+    padding-top: 150px;
+}
+
+#left{
+    height: 100%;
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-bottom: 50px;
+}
+
+#left h1{
+    font-size: 100px;
+    line-height: 110px;
+    font-family: poppins;
+    font-weight: 500;
+}
+
+
+
+#bottom-left{
+    width: 100%;
+}
+
+#color{
+    width: fit-content;
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+    border: 2px solid black;
+    font-family: poppins;
+}
+
+#color1{
+    height: 30px;
+    width: 30px;
+    background-color: brown;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+#color2{
+    height: 30px;
+    width: 30px;
+    background-color:burlywood;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+#left h3{
+    margin-top: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+#left p{
+    font-family: 'Poppins', sans-serif;
+    margin-top:10px;
+    color: #444;
+    font-weight: 400;
+}
+
+#right{
+    height: 90%;
+    width: 35%;
+    display: flex;
+    position: relative;
+    padding-left: 50px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+#img-left-text {
+    transform: rotate(270deg);
+    transform-origin: left center;
+    position: absolute;
+    left: 0; 
+    top: 50%;
+    transform: translateY(-50%) rotate(270deg);
+}
+
+#img-left-text h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+
+
+#img-top-text{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 15px;
+
+}
+
+#rate{
+    display: flex;
+    flex-direction: row;
+}
+
+#rate h4{
+    padding-right: 20px;
+}
+
+
